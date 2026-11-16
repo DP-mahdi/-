@@ -1,0 +1,967 @@
+@font-face {
+    font-family:"fontawesome";
+    src:url('fonts/fontawesome-webfont.ttf');
+    
+}
+@font-face {
+    font-family:"byekan";
+    src:url('fonts/BYekan+.ttf');
+    
+}
+@font-face {
+    font-family: "FontAwesome";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/fontawesome-webfont.eot") format("embedded-opentype"),
+    url("fonts/fontawesome-webfont.woff") format("woff"), 
+    url("fonts/fontawesome-webfont.ttf") format("truetype"), 
+    url("fonts/fontawesome-webfont.svg") format("svg");
+}
+
+body{
+    font-family:"byekan";
+    direction: rtl;
+
+}
+
+#logo{
+    width: 20%;
+    float: right;
+    margin-top: 10px;
+}
+#logo img{
+    width: 100%;
+}
+#menu{
+    width: 60%;
+    float: right;
+}
+#menu ul{
+    padding: 0;
+}
+#menu li{
+    display: inline-block;
+    margin: 0 15px;
+    margin-top: 10px;
+}
+#menu li a{
+    text-decoration: none;
+    font-size: 23px;
+    color: #363636;
+    transition-duration: 0.5s;
+}
+#menu li a:hover{
+    color: red;
+    transition-duration: 0.5s;
+}
+#tarikh{
+    width: 100px;
+    float: left;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #363636;
+}
+#up2{
+    width: 85%;
+    margin: auto;
+}
+#tarikh p:before{
+    font-family:"fontawesome";
+    content: "\f073";
+    margin-left: 7px;
+    
+}
+
+
+
+
+
+#pic{
+   background-image: url('images/hero11.webp'); clear:both;
+   height: 500px;
+   padding-top: 50px;
+   padding-bottom: 120px;
+   
+}
+#blackpart{
+    background: #000000a6;
+    color: white;
+    padding: 100px;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    border-radius: 16px;
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+#pic a{
+    background: red;
+    padding: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    transition-duration: 0.5s;
+}
+#pic a:hover{
+    color: black;
+    background-color: white;
+    transition-duration: 0.5s;
+}
+
+h2{
+    text-align: center;
+}
+#about2{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    background: #eee;
+
+}
+#about a{
+    font-size: 20px;
+    background: #eee;
+}
+
+#about2 a{
+    width: 162px;
+    background: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    margin: auto;
+    padding: 4px;
+    border: 1px solid gray;
+    transition-duration: 0.5s;
+}
+#about2 a:hover{
+    background-color: white;
+    background: #e6e6e6;
+    transition-duration: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+h2{
+ padding-top: 120px;
+}
+
+#khadamat{
+    background-color:#0984e3;
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    height: 750px;
+    text-align: center;
+    
+}
+#khadamat2 .radif1{
+    text-decoration: none;
+    width: 24%;
+    color: white;
+    display: inline-block;
+    line-height: 3;
+    text-align: right;
+
+}
+#khadamat2 .radif2{
+    text-decoration: none;
+    width: 24%;
+    color: white;
+    display: inline-block;
+    text-align: right;
+
+}
+
+
+#khadamat a:before{
+    font-family:"fontawesome";
+    content: "\f109";
+    padding: 3px;
+}
+#khadamat a:hover{
+    text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+#tarefe{
+    background: #eaf2f6;
+}
+
+.box{
+    color: #999;
+    width: 19%;
+    display: inline-block;
+    margin: auto;
+    background: white;
+    border-radius: 5px;
+    margin-right: 50px;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+.box a{
+    text-decoration: none;
+    color: white;
+    background: red;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    width: 54px;
+    margin:auto;
+    transition-duration: 0.5s;
+}
+.box a:hover{
+    transform: rotate(0deg) translateY(-4px);
+    transition-duration: 0.5s;
+
+}
+.box p{
+    border-bottom: 1px dashed lightgrey;
+    text-align: center;
+    padding-bottom:15px;
+    vertical-align: 10px;
+    line-height: 20px;
+    
+}
+.box p:nth-child(2){
+    font-size: 30px;
+    color: black;
+    padding: 40px;
+    margin-top: -16px;
+    margin-bottom: 16px;
+}
+
+#ghermez{
+    background: red;
+    color: white;
+    margin-top: -16px;
+    margin-bottom: 16px;
+    padding-top: 10px;
+    padding: 40px;
+}
+
+
+
+
+
+
+#narengi{
+    background: #fdcb6e;
+    padding-top: 100px;
+    padding-bottom: 50px; 
+}
+#narengi2{
+    width: 85%;
+    margin: auto;
+
+}
+#narengi2 a{
+    text-decoration: none;
+    color: #337ab7;
+}
+#narengi2 a:hover{
+    text-decoration: underline;
+}
+.nokhodi{
+    background: wheat;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 45%;
+    display: inline-block;
+    margin: 1%;
+
+}
+#blog{
+    text-align: center;
+    background: rgb(0, 184, 148);
+    padding-top: 100px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+#blog2 {
+    width: 85%;
+    margin: 0 auto;
+    color: white;
+}
+#blog2 ul{
+    background: white;
+    padding: 0;
+    line-height: 2;
+}
+#blog2 li{
+    list-style-type: none;
+    border-bottom: 1px dotted gray;
+}
+#blog2 li:nth-child(2n+1){
+    background: #fffff0;
+    font-size: 16px;
+}
+.a1 a{
+    color: #23527c;
+    font-size: 20px;
+}
+
+#a2{
+    background: #e21f2f;
+    text-decoration: none;
+    display: block;
+    width: 90px;
+    margin: auto;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 50px;
+    transition-duration: 0.5s;
+}
+
+#a2:hover{
+    color: gray;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    background: white;
+    border: 2px solid;
+}
+#a3{
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 0;
+}
+#a3:hover{
+    display: block;
+    text-decoration: underline;
+    padding: 0;
+}
+#blog2 a{
+    text-decoration: none;
+
+}
+#blog2 a:hover{
+    text-decoration: underline;
+
+}
+
+#footer{
+    background: #636e72;
+
+}
+.p1{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+.a2{
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+}
+
+
+
+
+
+
+.submenu{
+    display: none;
+    position: absolute;
+    background: #999;
+    width: 180px;
+
+}
+#menu li:hover > .submenu{
+    display: block;
+}
+#menu li{
+    position: relative;
+}
+.submenu li{
+    display: block !important;
+
+}
+#menu ul ul ul{
+    margin: right;
+    margin-top: -20;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1280px) {
+
+}
+@media only screen and (max-width:1210px) {
+
+}
+@media only screen and (max-width:1140px) {
+
+}
+@media only screen and (max-width:1024px) {
+
+}
+@media only screen and (max-width:992px) {
+
+}
+@media only screen and (max-width:768px) {
+
+}
+@media only screen and (max-width:480px) {
+
+}
+@media only screen and (max-width:425px) {
+
+}
+@media only screen and (max-width:320px) {
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+	   only screen and (min-resolution:144dpi) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* تنظیمات عمومی */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    overflow-wrap: break-word;
+}
+
+/* تبلت و لپ تاپ های کوچک */
+@media only screen and (max-width: 1024px) {
+
+    #up2 {
+        width: 95%;
+    }
+
+    #logo {
+        width: 18%;
+    }
+
+    #menu {
+        width: 65%;
+    }
+
+    #menu ul li {
+        margin: 0 7px;
+    }
+
+    #menu ul li a {
+        font-size: 19px;
+    }
+
+    #blackpart {
+        width: 80%;
+        padding: 60px 35px 30px;
+        font-size: 21px;
+    }
+
+    .box {
+        width: 40%;
+        margin: 10px 3%;
+    }
+
+    #khadamat2 .radif1,
+    #khadamat2 .radif2 {
+        width: 40%;
+    }
+
+    .nokhodi {
+        width: 45%;
+    }
+}
+
+/* تبلت */
+@media only screen and (max-width: 768px) {
+
+    #up2 {
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #logo {
+        width: 25%;
+        float: none;
+    }
+
+    #menu {
+        width: 70%;
+        float: none;
+    }
+
+    #menu ul {
+        text-align: center;
+    }
+
+    #menu ul li {
+        margin: 5px;
+    }
+
+    #menu ul li a {
+        font-size: 17px;
+    }
+
+    #tarikh {
+        display: none;
+    }
+
+    #pic {
+        height: auto;
+        min-height: 400px;
+        padding: 40px 15px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #blackpart {
+        width: 95%;
+        padding: 35px 20px;
+        font-size: 18px;
+    }
+
+    #blackpart h1 {
+        font-size: 28px;
+    }
+
+    #about2 {
+        padding: 20px;
+    }
+
+    h2 {
+        padding-top: 60px;
+    }
+
+    #khadamat {
+        height: auto;
+        padding: 20px 10px 50px;
+    }
+
+    #khadamat2 .radif1,
+    #khadamat2 .radif2 {
+        width: 45%;
+        font-size: 23px;
+    }
+
+    .box {
+        width: 44%;
+        margin: 10px 2%;
+        padding: 10px;
+    }
+
+    .box p:nth-child(2) {
+        font-size: 22px;
+        padding: 20px 5px;
+    }
+
+    #ghermez {
+        padding: 20px 5px;
+    }
+
+    #narengi {
+        padding: 40px 15px;
+    }
+
+    #narengi2 {
+        width: 95%;
+    }
+
+    .nokhodi {
+        width: 45%;
+        margin: 1%;
+    }
+
+    #blog {
+        padding-top: 40px;
+    }
+
+    #blog2 {
+        width: 95%;
+    }
+
+    .a1 a {
+        font-size: 17px;
+    }
+
+}
+
+/* موبایل */
+@media only screen and (max-width: 480px) {
+
+    /* هدر */
+    #up {
+        padding: 10px 0;
+    }
+
+    #up2 {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo {
+        width: 55%;
+        float: none;
+        margin: 5px auto 10px;
+    }
+
+    #menu {
+        width: 100%;
+        float: none;
+    }
+
+    #menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    #menu ul li {
+        margin: 5px 8px;
+    }
+
+    #menu ul li a {
+        font-size: 15px;
+    }
+
+    #tarikh {
+        display: none;
+    }
+
+    /* زیرمنو */
+    #menu .submenu {
+        width: 150px;
+        z-index: 100;
+        text-align: right;
+    }
+
+    #menu .submenu li {
+        margin: 5px;
+    }
+
+    #menu .submenu li a {
+        font-size: 14px;
+    }
+
+    /* تصویر اصلی */
+    #pic {
+        min-height: auto;
+        padding: 35px 10px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #blackpart {
+        width: 100%;
+        padding: 25px 15px;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+
+    #blackpart h1 {
+        font-size: 23px;
+    }
+
+    #blackpart p {
+        line-height: 2;
+    }
+
+    #pic a {
+        display: inline-block;
+        font-size: 13px;
+    }
+
+    /* درباره ما */
+    #about2 {
+        width: 100%;
+        padding: 20px 15px;
+        font-size: 15px;
+        line-height: 2;
+    }
+
+    #about2 h2 {
+        padding-top: 20px;
+    }
+
+    #about2 a {
+        max-width: 100%;
+    }
+
+    /* خدمات */
+    #khadamat {
+        height: auto;
+        padding: 10px 10px 35px;
+        font-size: 20px;
+    }
+
+    #khadamat h2 {
+        padding-top: 25px;
+    }
+
+    #khadamat2 .radif1,
+    #khadamat2 .radif2 {
+        width: 100%;
+        display: block;
+        text-align: right;
+        font-size: 17px;
+        line-height: 2.5;
+        padding-right: 15px;
+    }
+
+    /* تعرفه ها */
+    #tarefe {
+        padding: 10px 0 30px;
+    }
+
+    #tarefe h2 {
+        font-size: 20px;
+        padding: 25px 10px;
+        line-height: 1.8;
+    }
+
+    .box {
+        display: block;
+        width: 90%;
+        margin: 15px auto;
+        padding: 10px;
+    }
+
+    .box p {
+        font-size: 14px;
+    }
+
+    .box p:nth-child(2) {
+        font-size: 22px;
+        padding: 20px 5px;
+    }
+
+    #ghermez {
+        padding: 20px 5px;
+    }
+
+    /* اطلاعات پرداخت */
+    #narengi {
+        padding: 30px 10px;
+    }
+
+    #narengi2 {
+        width: 95%;
+        font-size: 14px;
+        line-height: 2;
+    }
+
+    .nokhodi {
+        display: block;
+        width: 95%;
+        margin: 12px auto;
+        padding: 10px;
+        font-size: 13px;
+        overflow-wrap: anywhere;
+    }
+
+    /* مقالات */
+    #blog {
+        padding: 20px 10px 35px;
+    }
+
+    #blog h2 {
+        padding-top: 20px;
+    }
+
+    #blog2 {
+        width: 100%;
+    }
+
+    #blog2 ul {
+        padding: 0 20px;
+    }
+
+    #blog2 ul li {
+        padding: 8px;
+        text-align: right;
+        line-height: 2;
+    }
+
+    .a1 a {
+        font-size: 14px;
+    }
+
+    #a2 {
+        margin-top: 25px;
+    }
+
+    /* فوتر */
+    #footer {
+        padding: 10px;
+    }
+
+    #footer2 {
+        width: 100%;
+    }
+
+    .p1 {
+        font-size: 13px;
+        line-height: 2;
+        padding: 10px 5px;
+    }
+
+}
+
+/* موبایل های خیلی کوچک */
+@media only screen and (max-width: 320px) {
+
+    #logo {
+        width: 70%;
+    }
+
+    #menu ul li {
+        margin: 4px;
+    }
+
+    #menu ul li a {
+        font-size: 13px;
+    }
+
+    #blackpart h1 {
+        font-size: 20px;
+    }
+
+    #blackpart {
+        font-size: 13px;
+        padding: 20px 10px;
+    }
+
+    .box {
+        width: 95%;
+    }
+
+    .nokhodi {
+        font-size: 11px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
